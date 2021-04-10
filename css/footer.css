@@ -1,0 +1,39 @@
+footer {
+  margin-top: 25px;
+  display: flex;
+  background: #333;
+}
+.footer-items {
+  display: flex;
+  padding: 25px;
+}
+.title {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.logo-info {
+  flex: 1;
+  margin-right: 26px;
+}
+.logo-info img {
+  margin-bottom: 25px;
+}
+.info {
+  flex: 1;
+}
+input {
+  outline: none;
+  background: #333;
+  border: none;
+  border-bottom: 2px solid;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.icons {
+  margin: 0 10px;
+}
+.span-item {
+  margin-top: 25px;
+  display: flex;
+}

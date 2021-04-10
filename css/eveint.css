@@ -1,0 +1,63 @@
+.eveint {
+  display: flex;
+  margin-bottom: 30px;
+}
+.eveint-desc .eveint-top {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+.eveint-desc .eveint-top .icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 45px;
+  color: var(--mainColor);
+}
+.eveint-desc .eveint-top + p {
+  line-height: 1.7;
+}
+.eveint-desc .bolletes {
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.eveint-desc .bolletes span {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: var(--mainColor);
+  margin-left: 10px;
+}
+.eveint-desc {
+  flex: 2;
+  background: #f7f3ef;
+  padding: 20px;
+  position: relative;
+}
+.eveint-item {
+  flex: 1;
+  height: 250px;
+  position: relative;
+}
+.eveint-item-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.eveint-item-info h5 {
+  font-weight: normal;
+  color: var(--mainColor);
+}
+
+.eveint-item {
+  background-image: url(../images/banner.PNG);
+  background-size: cover;
+  margin-right: 20px;
+}
+.items-images {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  background: #fff;
+  padding: 15px;
+  width: 400px;
+  border: 2px solid var(--mainColor);
+  margin-top: 15px;
+  transform: scale(0);
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 0.5s, visibility 0.7s;
+}
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown-menu ul {
+  display: table-cell;
+  text-align: left;
+}
+.dropdown-menu ul li:first-child a {
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 2px dotted var(--mainColor);
+}
+.dropdown-menu ul li {
+  line-height: 1.7;
+}
